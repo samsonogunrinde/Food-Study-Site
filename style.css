@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-img {
+    background-image: url(images/food\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-wrapper {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 500px;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: black;
+    /* color: rgb(248, 95, 6); */
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-wrapper p {
+    /* color: rgb(241, 226, 8); */
+    color: rgb(248, 95, 6);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-wrapper p:hover {
+    color: #f3dc10;
+}
+
+form {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    outline: none;
+    padding: 0px 20px;
+    width: 70%;
+}
+
+input::placeholder {
+    padding-left: -20px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 20px;
+    outline: none;
+    width: 200px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.six-classes {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.class-of-food {
+    display: grid;
+    grid-gap: 10px 40px;
+    grid-template-columns: 500px 400px 400px;
+    grid-template-rows: 400px 400px 400px;
+    height: 100vh;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    width: 80%;
+}
+
+.class-of-food-lists img {
+    border: 2px solid darkgoldenrod;
+    border-radius: 50%;
+    height: 200px;
+    text-align: center;
+    margin: 0px auto -20px auto;
+    width: 200px;
+    /* float: left; */
+}
+
+.class-of-food-lists h2,
+th {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.class-of-food-lists p {
+    margin-top: -10px;
+}
+
+.table {
+    background-color: aliceblue;
+    border: 5px solid rgb(238, 215, 10);
+    border-radius: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+}
+
+.food-class {
+    font-weight: bold;
+}
+
+.I-O-F {
+    background-color: coral;
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* .I-O-F-h2{padding-top: 10px;
+   text-align: center;
+   text-decoration:underline;
+}
+.I-O-F-ol{padding-top: 10px;
+    text-align: center;
+ } */
+.chop {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    top:10% ;
+    left:40%;
+    position: relative;
+    width: 300px;
+}
