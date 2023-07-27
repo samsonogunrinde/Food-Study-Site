@@ -124,7 +124,10 @@ th {
     border-radius: 20px;
     align-items: flex-start;
     justify-content: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     width: 90%;
 }
@@ -137,6 +140,7 @@ th {
     background-color: coral;
     display: block;
     margin-top: 30px;
+    padding: 10px ;
     width: 100%;
 }
 
@@ -153,5 +157,6 @@ th {
     top:10% ;
     left:40%;
     position: relative;
+    padding: 10px;
     width: 300px;
 }
